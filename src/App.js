@@ -1,12 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Hero from "./components/Hero";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Faqs from "./components/Faqs";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold font-poppins">Hello world!</h1>
+      <Header />
       <Hero />
+      <Faqs />
+      <Footer />
     </>
   );
 }
