@@ -1,18 +1,24 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Hero from "./components/Hero";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Faqs from "./components/Faqs";
+import CommunityDriven from "./components/CommunityDriven";
+import Roadmap from "./components/Roadmap";
+import TokenMetrics from "./components/TokenMetrics";
+import Introducing from "./components/Introducing";
 
 function App() {
   return (
-    <>
-      <Header />
+    <div className="bg-[url(/src/assets/images/webp/bg-image.webp)]">
       <Hero />
+      <Introducing />
+      <TokenMetrics />
+      <Roadmap />
+      <CommunityDriven />
       <Faqs />
       <Footer />
-    </>
+    </div>
   );
 }
 

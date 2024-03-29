@@ -36,13 +36,13 @@ const Faqs = () => {
             {/* Accordion header */}
             <AccordionHeader
               onClick={() => handleOpen(index)} // Handle click event to open/close accordion
-              className="font-indieFlower text-lg sm:text-2xl text-black opacity-70 py-0 border-0"
+              className="font-indieFlower text_border_half text-lg sm:text-2xxl text-black opacity-70 py-0 border-0"
             >
               {obj.title}
             </AccordionHeader>
 
             {/* Accordion body */}
-            <AccordionBody className="font-indieFlower text-sm sm:text-base text-black opacity-70 py-0 mt-1 sm:mt-2">
+            <AccordionBody className="font-indieFlower text_border_half text-sm sm:text-base text-black opacity-70 py-0 mt-1 sm:mt-2">
               {obj.description}
             </AccordionBody>
           </Accordion>

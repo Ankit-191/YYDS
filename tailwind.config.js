@@ -9,9 +9,16 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
       fontSize: {
-        "2xl": "28px", // 28px
-        "6xl": "50px", // 50px
+        "2xxl": "28px", // 28px
+        "5xxl": "50px", // 50px
         "7xl": "64px", // 64px
       },
       fontFamily: {
