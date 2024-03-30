@@ -10,7 +10,7 @@ import Introducing from "./components/Introducing";
 
 function App() {
   return (
-    <div className="bg-[url(/src/assets/images/webp/bg-image.webp)]">
+    <div className="bg-[url(/src/assets/images/webp/bg-image.webp)] bg-[#F7F5F0]">
       <Hero />
       <Introducing />
       <TokenMetrics />

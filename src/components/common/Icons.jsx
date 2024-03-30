@@ -9,7 +9,7 @@ export const DownArrowIcon = ({ id, open }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={`${
         id === open ? "rotate-180" : ""
-      } transition-transform duration-300`}
+      } transition-transform duration-300 md:w-[19px] w-[15px]`}
     >
       <path
         opacity="0.7"
@@ -22,7 +22,7 @@ export const DownArrowIcon = ({ id, open }) => {
     </svg>
   );
 };
-//
+// HASH IN TOKEN METRICS SECTION
 export const TokenMetricsHash = () => {
   return (
     <svg

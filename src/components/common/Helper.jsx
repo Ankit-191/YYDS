@@ -51,5 +51,6 @@ export const faqList = [
     title: "4. Swap Your Ethereum for $YYDS",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo id provident earum, animi omnis vero ratione saepe quia neque recusandae ipsum impedit possimus fugiat quaerat a minima quod vitae.",
+    clasName: "mb-0",
   },
 ];

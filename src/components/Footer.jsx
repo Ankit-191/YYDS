@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       {/* Footer container */}
-      <div className="py-9 bg-darkCharcoal">
+      <div className="py-12 md:py-24 xl:py-9 bg-darkCharcoal">
         <div className="max-w-[1164px] mx-auto px-3">
           {/* Footer content layout */}
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-0 justify-between">

@@ -8,7 +8,7 @@ import buildingMomentum from "../assets/images/png/building-momentum.png";
 
 const Roadmap = () => {
   return (
-    <div className="max-w-[1164px] mx-auto px-3 py-20">
+    <div className="max-w-[1164px] mx-auto px-3 py-12 md:py-24 xl:pb-24 xl:pt-[134px]">
       {/* Orange heading component */}
       <OrangeHeading text="Roadmap" />
 
@@ -16,7 +16,7 @@ const Roadmap = () => {
       <Heading
         startText="Pathway to "
         endText="Progress"
-        clasName="mb-6 sm:mb-8 md:mb-14"
+        clasName="mb-5 md:mb-6 xl:mb-14"
       />
 
       <div className="relative">
